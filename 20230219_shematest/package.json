@@ -1,0 +1,11 @@
+{
+  "name": "20230219_shematest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-dev": "^8.0.0",
+    "prettier": "^2.8.4",
+    "ramda": "^0.28.0"
+  }
+}
