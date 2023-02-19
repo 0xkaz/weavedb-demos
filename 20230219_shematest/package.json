@@ -8,6 +8,13 @@
     "prettier": "^2.8.4",
     "ramda": "^0.28.0",
     "uuid": "^9.0.0",
+    "weavedb-node-client": "^0.20.1",
     "weavedb-sdk-node": "^0.20.38"
+  },
+  "scripts": {
+    "dev1": "node-dev index1.js --respawn",
+    "dev2": "node-dev index2.js --respawn",
+    "dev3": "node-dev index3.js --respawn",
+    "prettier": "prettier ./**.{js,ts,jsx,tsx} --write"
   }
 }
