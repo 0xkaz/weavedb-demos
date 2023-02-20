@@ -1,23 +1,22 @@
 {
-  "name": "20230219_shematest",
+  "name": "20230221_setup_eth_wallet_for_cli",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "engines": {
-    "node": ">=18.13"
-  },
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
     "node-dev": "^8.0.0",
     "prettier": "^2.8.4",
-    "ramda": "^0.28.0",
-    "uuid": "^9.0.0",
     "weavedb-node-client": "^0.20.1",
     "weavedb-sdk-node": "^0.20.38"
   },
+  "engines": {
+    "node": ">=18.13"
+  },
   "scripts": {
-    "dev1": "node-dev index1.js --respawn",
-    "dev2": "node-dev index2.js --respawn",
-    "dev3": "node-dev index3.js --respawn",
+    "dev": "node-dev index.js --respawn",
     "prettier": "prettier ./**.{js,ts,jsx,tsx} --write"
   }
 }
